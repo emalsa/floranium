@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kst version="2.0.9">
+    <data>
+        <source reader="ASCII file" updateType="0" file="/Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" fileRelative="Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt">
+            <properties vector="INDEX" interpretation="1" delimiters="#" columntype="2" columndelimiter=";" headerstart="0" fields="0" readfields="false" usedot="true" columnwidthisconst="false" readunits="false" units="0" limitFileBuffer="false" limitFileBufferSize="0" useThreads="0" asciiTimeFormat="hh:mm:ss.zzz" dataRate="1" offsetDateTime="false" offsetFileDate="false" offsetRelavive="true" dateTimeOffset="2021-10-24T01:39:34Z" relativeOffset="0" nanValue="0" updateType="0"/> initialXNum="1" initialTNum="1" initialDSNum="1"
+        </source>
+    </data>
+    <variables>
+        <datavector file="/Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" fileRelative="Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" field="INDEX" start="0" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" initialVNum="1" initialXNum="1"/>
+        <datavector file="/Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" fileRelative="Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" field="INDEX" start="0" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" initialVNum="2" initialXNum="15"/>
+        <datavector file="/Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" fileRelative="Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" field="Column 1" start="0" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" initialVNum="3" initialXNum="29"/>
+        <datavector file="/Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" fileRelative="Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" field="Column 2" start="0" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" initialVNum="4" initialXNum="43"/>
+        <datavector file="/Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" fileRelative="Users/daniele/projects/floranium/src/github.com/floranium/dataLog.txt" field="Column 3" start="0" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" initialVNum="5" initialXNum="57"/>
+    </variables>
+    <objects/>
+    <relations>
+        <curve xvector="INDEX (V1)" yvector="INDEX (V2)" color="#0000ff" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="0" linestyle="0" haspoints="false" pointtype="0" pointdensity="0" pointsize="12" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="1"/>
+        <curve xvector="INDEX (V1)" yvector="Column 1 (V3)" color="#008000" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="0" linestyle="0" haspoints="false" pointtype="1" pointdensity="0" pointsize="12" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="2"/>
+        <curve xvector="INDEX (V1)" yvector="Column 2 (V4)" color="#000000" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="0" linestyle="0" haspoints="false" pointtype="2" pointdensity="0" pointsize="12" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="3"/>
+        <curve xvector="INDEX (V1)" yvector="Column 3 (V5)" color="#ff00ff" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="0" linestyle="0" haspoints="false" pointtype="3" pointdensity="0" pointsize="12" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="4"/>
+    </relations>
+    <graphics currentTab="0">
+        <view name="View &amp;1" width="1913" height="872" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="true" toplabelvisible="true" globalfont=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" globalfontscale="12.48528137423857" globalfontcolor="#000000" showlegend="true" hidebottomaxislabel="false" hidetopaxislabel="false" hideleftaxislabel="false" hiderightaxislabel="false" numberaxislabelscale="true" initialPlotNum="3" name="Plot">
+                <position x="-858.1202828928332" y="-433.7061101836866" z="500"/>
+                <rect x="0" y="0" width="1641.0055092683997" height="738.28209826124"/>
+                <relativesize width="0.8573696495655171" height="0.8456839613530813" centerx="-0.019653881012870085" centery="-0.07395768734600984" posx="-0.4483387057956286" posy="-0.4967996680225505" leftx="-0.4483387057956286" lefty="0.34888429333053084" rightx="0.40903094376988847" righty="0.34888429333053084" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="7.491168824543141" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="135.5859540625062" y="72.89658669492243" z="500"/>
+                    <rect x="0" y="0" width="137.63541953065408" height="21.92446922296316"/>
+                    <relativesize width="0.08925288906003566" height="0.033589414629753865" centerx="0.07877769151312408" centery="0.11009141061158048" posx="0.03415124698310625" posy="0.09329670329670355" leftx="0.03415124698310625" lefty="0.12688611792645743" rightx="0.1234041360431419" righty="0.12688611792645743" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Column 2 vs INDEX (C3)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="2" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="2" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12.48528137423857" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12.48528137423857" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12.48528137423857" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12.48528137423857" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12.48528137423857" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="645.3130110549139" y="0.9695329745580196" width="157.20508215274117" height="1.575356840545099"/>
+            </plot>
+        </view>
+    </graphics>
+</kst>

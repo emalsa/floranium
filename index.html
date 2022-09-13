@@ -1,0 +1,67 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    async function fetchData() {
+        let res = await fetch("src/github.com/floranium/dataLog.txt");
+        const str = await res.text();
+        const delimiter = ";"
+
+        const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
+        // slice from \n index + 1 to the end of the text
+        // use split to create an array of each csv value row
+        const rows = str.slice(str.indexOf("\n") + 1).split("\n");
+
+        // Map the rows
+        // split values from each row into an array
+        // use headers.reduce to create an object
+        // object properties derived from headers:values
+        // the object passed as an element of the array
+        const arr = rows.map(function (row) {
+            const values = row.split(delimiter);
+            const el = headers.reduce(function (object, header, index) {
+                object[header] = values[index];
+                return object;
+            }, {});
+            return el;
+        });
+
+        return arr;
+    }
+
+    async function getData() {
+        const data = await fetchData();
+        return data;
+    }
+
+    const a =getData().then(num => console.log(num));
+
+
+    const data = {
+        labels: 'Column 3',
+        datasets: [
+            {
+                label: 'Column 3',
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: getData().then(num => console.log(num[154]))
+            }]
+    };
+    const config = {
+        type: 'line',
+        data: data,
+        options: {}
+    };
+</script>
+
+<div>
+    <canvas id="column3"></canvas>
+</div>
+
+<script>
+    const column3 = new Chart(
+        document.getElementById('column3'),
+        config
+    );
+
+
+</script>
